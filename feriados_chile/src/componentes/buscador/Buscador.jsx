@@ -5,6 +5,9 @@ import React from "react";
 const Buscador = ({ setBuscar }) => {
   return (
     <div className="input-group mb-3">
+      <span className="input-group-text bg-warning" id="basic-addon1">
+        Buscar
+      </span>
       <input
         type="text"
         className="form-control"

@@ -1,22 +1,21 @@
 // MyCard.jsx
 import React from "react";
 
-const MyCard = ({ date, title, type, extra }) => {
+const MyCard = ({ date, title, extra }) => {
   return (
     <>
-      <div className="card" style={{ width: "18rem" }}>
+      <div className="card" style={{ width: "16rem" }} key={date}>
         {" "}
-        {/* Usamos un objeto de estilo */}
         <img
-          src="https://www.culiacan.tecnm.mx/wp-content/uploads/2022/12/IMAGEN-CALENDARIO.jpg"
+          src="https://cdn-icons-png.flaticon.com/512/10691/10691802.png"
           className="card-img-top"
           alt="..."
         />
         <div className="card-body">
           <h5 className="card-title">{date}</h5>
-          <h5 className="card-title">{title}</h5>
-          <p className="card-text">{type}</p>
-          <p className="card-text">{extra}</p>
+          <h4 className="card-title">{title}</h4>
+          {/* <span className="card-text">{type}</span> */}
+          <span className="card-text">{extra}</span>
         </div>
       </div>
     </>
