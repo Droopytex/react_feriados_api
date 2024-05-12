@@ -12,7 +12,7 @@ const Mi_Api = ({ buscar }) => {
     try {
       const response = await fetch(url);
       const data = await response.json();
-      setInfo(data.date);
+      setInfo(data.data);
     } catch (error) {
       console.error("Hubo un error al consultar la API:", error);
     }
