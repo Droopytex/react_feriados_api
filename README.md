@@ -1,6 +1,7 @@
 <h1>Pureba de módulo React1<h1/>
 ✨Consumo de Api.✨
 
+<article>
 El presente repositorio coerresponde a la prueba final del módulo de react1, de Desafío Latam.
 Esta pureba consiste en la construcción de una aplicación que consume una Api.
 Esto aplicando los conocimientos en React.
@@ -35,3 +36,4 @@ Visuales
 
 
 Prueba desarrollada por Andrés Velásquez
+<article/>
