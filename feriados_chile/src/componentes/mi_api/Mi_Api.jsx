@@ -14,7 +14,7 @@ const Mi_Api = ({ buscar }) => {
       const data = await response.json();
       setInfo(data.data);
     } catch (error) {
-      console.error("Hubo un error al consultar la API:", error);
+      console.log("Hubo un error al consultar la API:");
     }
   };
 

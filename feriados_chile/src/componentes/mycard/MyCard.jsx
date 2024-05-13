@@ -14,7 +14,6 @@ const MyCard = ({ date, title, extra }) => {
         <div className="card-body">
           <h5 className="card-title">{date}</h5>
           <h4 className="card-title">{title}</h4>
-          {/* <span className="card-text">{type}</span> */}
           <span className="card-text">{extra}</span>
         </div>
       </div>

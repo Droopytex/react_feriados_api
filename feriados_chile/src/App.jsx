@@ -12,7 +12,7 @@ function App() {
       <container className="bg-secundary">
         <Header />
         <p>
-          Conoce los feriados oficiales para Chile este año, todo actualizado
+          Conoce los feriados oficiales para Chile este año, todo actualizado.
         </p>
 
         <Buscador setBuscar={setBuscar} />
