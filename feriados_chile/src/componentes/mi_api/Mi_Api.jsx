@@ -43,7 +43,6 @@ const Mi_Api = ({ buscar }) => {
             ) => (
               <div key={fecha.id} className="col-sm-6 col-md-4 col-lg-3">
                 <MyCard
-                  // key={fecha.id}
                   date={`${fecha.date}`}
                   title={`${fecha.title}`}
                   extra={`${fecha.extra}`}
