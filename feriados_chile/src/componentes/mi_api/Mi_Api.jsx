@@ -1,4 +1,3 @@
-// Mi_Api.jsx
 import { useState, useEffect } from "react";
 import MyCard from "../mycard/MyCard";
 
@@ -37,19 +36,15 @@ const Mi_Api = ({ buscar }) => {
     <>
       <div className="container">
         <div className="row">
-          {mostrarFecha.map(
-            (
-              fecha // Agregamos el id
-            ) => (
-              <div key={fecha.id} className="col-sm-6 col-md-4 col-lg-3">
-                <MyCard
-                  date={`${fecha.date}`}
-                  title={`${fecha.title}`}
-                  extra={`${fecha.extra}`}
-                />
-              </div>
-            )
-          )}
+          {mostrarFecha.map((fecha) => (
+            <div key={fecha.id} className="col-sm-6 col-md-4 col-lg-3">
+              <MyCard
+                date={`${fecha.date}`}
+                title={`${fecha.title}`}
+                extra={`${fecha.extra}`}
+              />
+            </div>
+          ))}
         </div>
       </div>
     </>
